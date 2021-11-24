@@ -1,0 +1,170 @@
+body {
+    background-color: black;
+}
+
+body,
+html {
+    height: 100%;
+}
+div.headtext{text-align: center;}
+span.öppettider {
+    color: #fff;
+    padding: 18px;
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+
+.öppettiderdiv {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+span.mån-tors,
+span.fre,
+span.lör,
+span.sön {
+    color: #fff;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 0px;
+}
+
+.infotext {
+    font-style: italic;
+    position: absolute;
+
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.infotext1 {
+
+    font-style: italic;
+    position: absolute;
+    background-color: rgba(119, 136, 153, 0.281);
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+p.tel {
+    color: rgba(191, 35, 36, 1);
+}
+
+span.lunch {
+    color: rgb(233, 199, 53);
+    padding: 30px;
+    font-size: 40px;
+    letter-spacing: 0px;
+}
+
+
+span.sällskap {
+    color: #fff;
+    padding: 18px;
+    font-size: 45px;
+    letter-spacing: 0px;
+
+}
+
+.parallax {
+    background-image: url(img/pizza.jpg);
+    min-height: 60%;
+}
+
+.parallax2 {
+    background-image: url(img/pizza2.webp);
+    min-height: 700px;
+}
+
+
+.parallax,
+.parallax2 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+span.text1 {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(233, 199, 53);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px
+}
+
+span.text2 {
+    color: rgba(191, 35, 36, 1);
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+}
+
+
+
+ul.topp {
+
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+li.topp {
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+
+li.lastchild {
+    border-right: none;
+}
+
+li.topp a {
+    font-family: "Open Sans", "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    padding: 25px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+li.topp a:hover {
+    border-bottom: 3px solid rgba(191, 35, 36, 1);
+}
+div.anim{
+    width: 250px;
+    height: 5px;
+    background-color:rgb(233, 199, 53) ;
+    animation: stripe 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes stripe{
+    from 
+    {transform: translate(0,0);}
+    to
+    {transform: translate(2000px,0);}
+    50% {background-color: rgba(191, 35, 36, 1);}
+    100% {background-color: rgba(191, 35, 36, 1);}
+}

@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+
+
+
+
+
+div.headtext {
+    text-align: center;
+}
+
+span.text1 {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(233, 199, 53);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px
+}
+
+span.text2 {
+    color: rgba(191, 35, 36, 1);
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+}
+
+
+
+ul.topp {
+
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+li.topp {
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+
+li.lastchild {
+    border-right: none;
+}
+
+li.topp a {
+    font-family: "Open Sans", "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    padding: 25px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+li.topp a:hover {
+    border-bottom: 3px solid rgba(191, 35, 36, 1);
+}
+
+
+.background{
+    background-image: url(img/background.webp);
+    min-height: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0px;
+    
+}
+
+
+
+
+.pizzanamn
+{font-weight: bold;}
+
+.menyvänster h1
+{color: rgba(191, 35, 36, 1);
+}
+
+.menyvänster li
+{   color: #e9c735;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+line-height: 35px;}
+
+.menyvänster
+{   
+    float: left;
+
+    width: 500px;
+    
+    }
+
+.menyhöger h1
+{color:rgba(191, 35, 36, 1) ;}
+
+
+.menyhöger li
+{
+    color: #e9c735;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px;}
+
+    .menyhöger{ 
+        float: left;
+    
+        }
+        .menyvänsternere h1
+{color: rgba(191, 35, 36, 1);
+}
+
+.menyvänsternere li
+{   color: #e9c735;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+line-height: 35px;}
+
+.menyvänsternere
+{   
+    float: left;
+    margin-right: 60px;
+    
+    }
